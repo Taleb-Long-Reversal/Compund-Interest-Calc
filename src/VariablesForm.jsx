@@ -30,7 +30,7 @@ function VariablesForm({ onUpdate }) {
             value={period}
             onChange={({ target }) => setState({ ...state, period: Number(parseInt(target.value)) })}
           />
-        </label>
+        </label>git 
         <label htmlFor="growthRate">
           Annual Growth Rate (%)
           <input
