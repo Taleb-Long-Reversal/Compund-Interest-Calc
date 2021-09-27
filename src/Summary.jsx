@@ -11,7 +11,7 @@ function Summary({ period, data }) {
       <p>
         In {period} years, you will have ${toNumber(data[data.length - 1].value)}
       </p>
-      <h3>fb
+      <h3>
       </h3>
       <table>
         <thead>
@@ -24,7 +24,7 @@ function Summary({ period, data }) {
           {data.map(({ label, value }) => (
             <tr key={label}>
               <td>{label}</td>
-              <td>£{value.toFixed(2)}</td>
+              <td>${value.toFixed(2)}</td>
             </tr>
           ))}
         </tbody>
