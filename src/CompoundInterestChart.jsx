@@ -10,7 +10,7 @@ import {
   ResponsiveContainer
 } from "recharts";
 
-import  from "./Summary.jsx";
+import Summary from "./Summary.jsx";
 
 function renderTooltip({ payload }) {
   if (!payload[0]) {
