@@ -24,7 +24,7 @@ function Summary({ period, data }) {
           {data.map(({ label, value }) => (
             <tr key={label}>
               <td>{label}</td>
-              <td>${value.toFixed(2)}</td>
+              <td>$$${value.toFixed(2)}</td>
             </tr>
           ))}
         </tbody>
